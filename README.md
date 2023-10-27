@@ -12,3 +12,6 @@
 
    O CanB é uma plataforma de gerenciamento de tarefas e projetos que oferece uma abordagem flexível e visual para ajudar você a organizar e acompanhar suas atividades. Com ele, você pode criar quadros personalizados para representar seus projetos, adicionar cartões para representar tarefas e movê-los entre colunas para refletir o progresso. Você pode editar facilmente as informações dos cartões, incluindo nomes e descrições, e até mesmo excluir cartões quando não forem mais necessários. Além disso, permite que você colabore com outros membros da equipe, tornando-o ideal para o trabalho em grupo. Simplifique o gerenciamento de projetos e mantenha-se produtivo com o CanB.
 
+## Teste o site!
+
+link: [CanB](https://projetocanb.000webhostapp.com/)https://projetocanb.000webhostapp.com/).
