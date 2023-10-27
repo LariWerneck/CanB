@@ -14,4 +14,4 @@
 
 ## Teste o site!
 
-link: [CanB](https://projetocanb.000webhostapp.com/)https://projetocanb.000webhostapp.com/).
+link: [CanB](https://projetocanb.000webhostapp.com/)
