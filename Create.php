@@ -67,18 +67,15 @@ if (mysqli_num_rows($result) > 0)
     ?>
     <div class="quadros" id="quadros">
     <?php foreach ($frames as $frame) : ?>
-      
-        <div class="quadro" name="quadro" id="quadro<?= $frame['id_frame'] ?>">
-        
-<a href="kanban.php?id=<?= $frame['id_frame'] ?>&id_kanban=<?= $frame['id_frame'] ?>">
+      <div class="quadro" name="quadro" id="quadro<?= $frame['id_frame'] ?>">
+        <a href="kanban.php?id=<?= $frame['id_frame'] ?>&id_kanban=<?= $frame['id_frame'] ?>">
           <div class="TitleFrame"><?= htmlspecialchars($frame['nm_frame']) ?></div>
-          </a>
+        </a>
         <div class="card">
-    <button class="delete-button"><img class="delete-img" src="Create_Page/img/icon-delete.png"/></button>
-    <button class="update-button"><img class="update-img" src="Create_Page/img/icon-update.png"/></button>
-</div>
+          <button class="delete-button"><img class="delete-img" src="Create_Page/img/icon-delete.png"/></button>
+          <button class="update-button"><img class="update-img" src="Create_Page/img/icon-update.png"/></button>
         </div>
-      
+        </div>   
     <?php endforeach; ?>
     <button class="new-frame" id="openModal"><img class="mais" src="Create_Page/img/icon-mais.svg" /></button>
       <div id="myModal" class="modal">
