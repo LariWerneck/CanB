@@ -1,0 +1,302 @@
+/*
+
+Style.css da página Create.php e Index.php
+
+  Aqui você encontra estilo e principal parte visual da página.
+
+*/
+
+.first-page {
+  display: flex;
+  background: linear-gradient(180deg, rgb(214.62, 211.98, 207.47) 4.42%, rgb(121, 175, 193) 100%);
+  margin: 0px;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.nav-bar {
+  display: flex;
+  flex-direction: column;
+  height: 350px;
+  align-items: center;
+  justify-content: center;
+  gap: 45px;
+  padding: 45px 25px;
+  background-color: #f8f4ea;
+  border-radius: 0px 0px 15px 15px;
+}
+
+
+.nav-bar .img {
+  position: relative;
+  width: 35px;
+  height: 35px;
+}
+
+.main {
+  height: 100vh;
+  width: 100%;
+  background-size: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.main .div-logo {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+}
+
+.main .canb {
+  margin: 20px;
+  margin-right: 30px;
+  margin-top: 30px;
+  width: 136px;
+}
+
+.main .quadros {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.main .quadro {
+  display: flex;
+  flex-direction: column-reverse;
+  position: relative;
+  width: 250px;
+  height: 150px;
+  background-color: #f8f4ea;
+  border-radius: 15px;
+  box-shadow: 20px 10px 60px #141e4626;
+  margin: 80px;
+  border:none;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.main .mais {
+  width: 35px;
+  height: 35px;
+}
+
+.new-frame {
+  all: unset;
+  cursor: pointer;
+}
+
+.new-frame:hover {
+  all: unset;
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0.11);
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.7);
+}
+
+.modal-content {
+  display: flex;
+  background-color: rgb(190 216 225);
+  margin: 10% auto;
+  padding: 20px;
+  border: 2px solid #141e46;
+  width: 50%;
+  border-radius: 10px;
+  font-family: arial;
+  justify-content: center;
+}
+
+.close {
+  color: #141e46;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.text-wrapper {
+  font-family: "Inter-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #141e46;
+  font-size: 24px;
+  padding: 10px;
+}
+
+.containerForm {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  margin-right: 20px;
+  align-items: center;
+}
+
+.btnNameFrame {
+  width: 130px;
+  height: 34px;
+  border-radius: 10px;
+  border: 3px solid;
+  border-color: #00000066;
+  font-weight: 700;
+  color: #141e46;
+  font-size: 16px;
+  margin-top: 5px;
+}
+    
+.btnNameFrame:hover {
+  background-color: #141e46;
+  color: white;
+  cursor: pointer;
+}
+
+.inputNameFrame {
+  padding: 0px 15px;
+  border: none;
+  background: none;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 0.8px;
+}
+
+.inputNameFrame:focus {
+  box-shadow: 0 0 0 0;
+  border: 0 none;
+  outline: 0;
+}
+
+.label-wrapper {
+display: flex;
+flex-direction: column;
+width: 238px;
+height: 44px;
+justify-content: center;
+padding: 0px 15px;
+border-radius: 10px;
+border-bottom-style: solid;
+border-color: #141e46;
+margin: 20px;
+}
+
+.formsalign {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.btnOpen {
+  all: unset;
+  display: flex !important;
+  flex-direction: row;
+  cursor: pointer;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  border: 3px solid;
+  border-color: #00000066;
+  width: 120px;
+  height: 20px;
+}
+
+.btnOpen:hover {
+  background-color: #141e46;
+  color: white;
+  cursor: pointer;
+}
+
+.TitleFrame {
+  display: flex;
+  font-family: "Inter-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #141e46;
+  font-size: 24px;
+  width: fit-content;
+  word-wrap: break-word;
+}
+
+.delete-button, .update-button {
+  all: unset;
+  cursor: pointer;
+  margin: 10px;
+}
+  
+.delete-img {
+  position: relative;
+  width: 12px;
+  height: 12px;
+}
+
+.update-img {
+  position: relative;
+  width: 15px;
+  height: 15px;
+}
+
+.card {
+  display: flex;
+  width: 250px;
+  justify-content: flex-end;
+  align-items: flex-start;
+}
+
+.QuadroIndex {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  background-color: #f8f4ea;
+  border-radius: 15px;
+  box-shadow: 20px 10px 60px #141e4626;
+  align-items: center;
+  margin: 50px;
+  border: none;
+  justify-content: center;
+  padding: 50px;
+  overflow-wrap: break-word;
+  width: 1000px;
+}
+
+.FlexText {
+  display: flex;
+  margin: 10px;
+  overflow-wrap: break-word;
+}
+
+.button {
+  width: 170px;
+  height: 34px;
+  border-radius: 10px;
+  border: 3px solid;
+  border-color: #00000066;
+  font-weight: 700;
+  color: #141e46;
+  font-size: 16px;
+  margin-top: 35px;
+}
+
+.button:hover {
+  background-color: #141e46;
+  color: white;
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1 {
+  display: flex;
+  font-family: "Inter-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #141e46;
+  font-size: 24px;
+  width: fit-content;
+  word-wrap: break-word;
+  font-size: 35px;
+}

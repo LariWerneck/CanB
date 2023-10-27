@@ -1,0 +1,150 @@
+/*
+
+Style.css da página Kanban.php
+
+  Aqui você encontra estilo e principal parte visual da página.
+
+*/
+
+.first-page {
+  display: flex;
+  background: linear-gradient(180deg, rgb(214.62, 211.98, 207.47) 4.42%, rgb(121, 175, 193) 100%);
+  margin: 0px;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.nav-bar {
+  display: flex;
+  flex-direction: column;
+  height: 350px;
+  align-items: center;
+  justify-content: center;
+  gap: 45px;
+  padding: 45px 25px;
+  background-color: #f8f4ea;
+  border-radius: 0px 0px 15px 15px;
+}
+
+.nav-bar .img {
+  position: relative;
+  width: 35px;
+  height: 35px;
+}
+
+.main {
+  height: 100vh;
+  width: 100%;
+  background-size: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.main .div-logo {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+}
+
+.main .canb {
+  margin: 20px;
+  margin-right: 30px;
+  margin-top: 30px;
+  width: 136px;
+}
+
+.kanban {
+  display: flex;
+  gap: 15px;
+  padding: 30px 0px;
+  background-color: #f8f4ea;
+  border-radius: 15px;
+  border: 1px solid;
+  border-color: #d0e7ea;
+  align-self: center;
+}
+
+.kanban .list {
+  display: flex;
+  flex-direction: column;
+  width: 289px;
+  height: 100%;
+  align-items: center;
+  gap: 40px;
+  padding: 10px;
+}
+
+.kanban .frame {
+  display: flex;
+  flex-direction: column;
+}
+
+.kanban .text-wrapper {
+  font-family: "Inter-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #000000;
+  font-size: 24px;
+}
+
+.kanban .line {
+  border-width: 1px;
+  border-color: black;
+}
+
+.addCard {
+  display: flex;
+  width: 100px;
+  height: 30px;
+  align-self: center;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  border: 3px solid;
+  border-color: #00000066;
+  font-weight: 700;
+  color: #141e46;
+  font-size: 16px;
+}
+
+.addCard:hover {
+  background-color: #141e46;
+  color: white;
+  cursor: pointer;
+}
+
+.divTextArea {
+  display: flex;
+  flex-wrap: wrap;
+  border: none;
+  background: none;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 0.8px;
+  width: 257px;
+  height: 125px;
+  background-color: #b1d7eb;
+  border-radius: 5px;
+  align-items: center;
+  justify-content: center;
+}
+
+.delete-button {
+  all: unset;
+  cursor: pointer;
+  margin: 10px;
+}
+
+.delete-img {
+  position: relative;
+  width: 12px;
+  height: 12px;
+}
+
+.card-container {
+  display: flex;
+  width: 250px;
+  justify-content: flex-end;
+  align-items: flex-start;
+}

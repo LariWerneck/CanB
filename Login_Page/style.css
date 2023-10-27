@@ -1,0 +1,124 @@
+/*
+
+Style.css da página Login.php e Register.php
+
+  Aqui você encontra estilo e principal parte visual da páginas.
+
+*/
+
+body {
+  margin: 0px;
+  padding: 0%;
+  background-repeat: no-repeat;
+  background:rgb(121, 175, 193);
+  background-attachment: fixed;
+}
+
+.home {
+  margin-top: 8%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.home .main {
+  display: flex;
+  width: 920px;
+  height: 641px;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  border-radius: 25px;
+  border: 2px solid;
+  border-color: rgb(248, 244, 234, 70%);
+  background: linear-gradient(305deg, rgb(248, 244, 234) 20%, rgb(121, 175, 193) 100%);
+  box-shadow: 50px 50px 20px #9bc6d4;
+}
+
+.home .img {
+  position: relative;
+  height: 400px;
+}
+
+.home .login {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+  padding: 10px;
+}
+
+.home .canb {
+  height: 60px;
+}
+
+.home .text-wrapper {
+  font-family: "Inter-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #141e46;
+  font-size: 24px;
+}
+
+.input:focus {
+  box-shadow: 0 0 0 0;
+  border: 0 none;
+  outline: 0;
+} 
+
+.home .input {
+  padding: 0px 15px;
+  border: none;
+  background: none;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 0.8px;
+}
+
+.home .label-wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 238px;
+  height: 44px;
+  justify-content: center;
+  padding: 0px 15px;
+  border-radius: 10px;
+  border-bottom-style: solid;
+  border-color: #141e46;
+  margin: 20px;
+}
+
+.button {
+  width: 130px;
+  height: 34px;
+  border-radius: 10px;
+  border: 3px solid;
+  border-color: #00000066;
+  font-weight: 700;
+  color: #141e46;
+  font-size: 16px;
+  margin-top: 35px;
+}
+
+.button:hover {
+  background-color: #141e46;
+  color: white;
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+}
+
+.formlogin {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.TextEcho {
+  font-family: arial;
+  font-size: 16px;
+}
