@@ -5,7 +5,7 @@
 
 ## Sobre método Kanban 📌
 
-   A organização é uma parte fundamental de qualquer meta que se tenha, mantendo as coisas no lugar e priorizando o mais importante é um meio mais rápido de se concluir pequenos obstáculos e chegar em seu objetivo final.
+   A organização é uma parte fundamental de qualquer meta que se tenha, mantendo as coisas no lugar e priorizando o mais importante é um meio mais rápido de se concluir pequenos obstáculos e chegar em seu objetivo final.<br>
    O método Kanban, criado por David J. Anderson em 2010, combinava elementos de pensamento ágil e lean, visando melhorar os processos de desenvolvimento de softwares, e mais tarde o mesmo poderia ser usado para diversos tipos de produtos. Com diferentes práticas, no Kanban, podemos excluir o desperdício e melhorar a entrega de valor, obtendo vantagens como mais autonomia, otimização de tempo, melhor visualização do fluxo de trabalhos e a colaboração entre as pessoas da equipe que utilizarem o método.
 
 ## CanB - With organization you can be! ✅
